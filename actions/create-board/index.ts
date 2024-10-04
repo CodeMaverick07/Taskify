@@ -1,19 +1,23 @@
 "use server";
 
-import { db } from "@/lib/db";
-
-import { InputType, ReturnType } from "./types";
 import { auth } from "@clerk/nextjs/server";
 import { revalidatePath } from "next/cache";
+
+import { db } from "@/lib/db";
 import { createSafeAction } from "@/lib/create-safe-action";
+
+import { InputType, ReturnType } from "./types";
 import { CreateBoard } from "./schema";
 
 const handler = async (data: InputType): Promise<ReturnType> => {
-  const { userId } = auth();
+  const { userId, orgId } = auth();
 
-  if (!userId) {
-    return { error: "unauthorized" };
+  if (!userId || !orgId) {
+    return {
+      error: "Unauthorized",
+    };
   }
+
   const { title } = data;
 
   let board;
@@ -25,8 +29,12 @@ const handler = async (data: InputType): Promise<ReturnType> => {
       },
     });
   } catch (error) {
-    return { error: "Failed to create" };
+    return {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      error: (error as any)?.message || "An error occurred",
+    };
   }
+
   revalidatePath(`/board/${board.id}`);
   return { data: board };
 };

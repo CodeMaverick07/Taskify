@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/home/codemaverick/Desktop/trello_clone_taskify/app/(platform)/(dashboard)/layout\":[\"static/media/90475aac776488b6-s.p.woff2\"],\"/home/codemaverick/Desktop/trello_clone_taskify/app/layout\":[\"static/media/a34f9d1faa5f3315-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
