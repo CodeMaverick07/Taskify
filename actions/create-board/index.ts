@@ -18,7 +18,22 @@ const handler = async (data: InputType): Promise<ReturnType> => {
     };
   }
 
-  const { title } = data;
+  const { title, image } = data;
+
+  const [imageId, imageThumbUrl, imageFullUrl, imageLinkHTML, imageUserName] =
+    image.split("|");
+
+  if (
+    !imageId ||
+    !imageThumbUrl ||
+    !imageFullUrl ||
+    !imageUserName ||
+    !imageLinkHTML
+  ) {
+    return {
+      error: "Missing fields. Failed to create board.",
+    };
+  }
 
   let board;
 
@@ -26,12 +41,17 @@ const handler = async (data: InputType): Promise<ReturnType> => {
     board = await db.board.create({
       data: {
         title,
+        orgId,
+        imageId,
+        imageThumbUrl,
+        imageFullUrl,
+        imageUserName,
+        imageLinkHTML,
       },
     });
   } catch (error) {
     return {
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      error: (error as any)?.message || "An error occurred",
+      error: "Failed to create.",
     };
   }
 
