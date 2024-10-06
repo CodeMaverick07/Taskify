@@ -2,21 +2,49 @@
   "node": {
     "86f4838ce428cae5981650674f7898dfab1911aa": {
       "workers": {
-        "app/(platform)/(dashboard)/organization/[organizationId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fcreate-board%2Findex.ts%22%2C%5B%22createBoard%22%5D%5D%5D&__client_imported__=true!"
+        "app/(platform)/(dashboard)/organization/[organizationId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fcreate-board%2Findex.ts%22%2C%5B%22createBoard%22%5D%5D%5D&__client_imported__=true!",
+        "app/(platform)/(dashboard)/board/[boardId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fcreate-list%2Findex.ts%22%2C%5B%22createList%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fdelete-board%2Findex.ts%22%2C%5B%22deleteBoard%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fupdate-board%2Findex.ts%22%2C%5B%22updateBoard%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fcreate-board%2Findex.ts%22%2C%5B%22createBoard%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/(platform)/(dashboard)/organization/[organizationId]/page": "action-browser"
+        "app/(platform)/(dashboard)/organization/[organizationId]/page": "action-browser",
+        "app/(platform)/(dashboard)/board/[boardId]/page": "action-browser"
       }
     },
     "609ca3f0f09bb85737c9e36aff3481dd41081f2c": {
       "workers": {
-        "app/(platform)/(dashboard)/organization/[organizationId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fcreate-board%2Findex.ts%22%2C%5B%22createBoard%22%5D%5D%5D&__client_imported__=true!"
+        "app/(platform)/(dashboard)/organization/[organizationId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fcreate-board%2Findex.ts%22%2C%5B%22createBoard%22%5D%5D%5D&__client_imported__=true!",
+        "app/(platform)/(dashboard)/board/[boardId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fcreate-list%2Findex.ts%22%2C%5B%22createList%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fdelete-board%2Findex.ts%22%2C%5B%22deleteBoard%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fupdate-board%2Findex.ts%22%2C%5B%22updateBoard%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fcreate-board%2Findex.ts%22%2C%5B%22createBoard%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/(platform)/(dashboard)/organization/[organizationId]/page": "action-browser"
+        "app/(platform)/(dashboard)/organization/[organizationId]/page": "action-browser",
+        "app/(platform)/(dashboard)/board/[boardId]/page": "action-browser"
+      }
+    },
+    "53ea3af84224d69955f667d13a93fd1d3e685934": {
+      "workers": {
+        "app/(platform)/(dashboard)/board/[boardId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fcreate-list%2Findex.ts%22%2C%5B%22createList%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fdelete-board%2Findex.ts%22%2C%5B%22deleteBoard%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fupdate-board%2Findex.ts%22%2C%5B%22updateBoard%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fcreate-board%2Findex.ts%22%2C%5B%22createBoard%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(platform)/(dashboard)/board/[boardId]/page": "action-browser"
+      }
+    },
+    "a2603877f701e901db9f2b3e18a51a047db93799": {
+      "workers": {
+        "app/(platform)/(dashboard)/board/[boardId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fcreate-list%2Findex.ts%22%2C%5B%22createList%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fdelete-board%2Findex.ts%22%2C%5B%22deleteBoard%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fupdate-board%2Findex.ts%22%2C%5B%22updateBoard%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fcreate-board%2Findex.ts%22%2C%5B%22createBoard%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(platform)/(dashboard)/board/[boardId]/page": "action-browser"
+      }
+    },
+    "ba6c31a9562e339941d2af2a68b09ee932074efe": {
+      "workers": {
+        "app/(platform)/(dashboard)/board/[boardId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fcreate-list%2Findex.ts%22%2C%5B%22createList%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fdelete-board%2Findex.ts%22%2C%5B%22deleteBoard%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fupdate-board%2Findex.ts%22%2C%5B%22updateBoard%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%2C%5B%22%2Fhome%2Fcodemaverick%2FDesktop%2Ftrello_clone_taskify%2Factions%2Fcreate-board%2Findex.ts%22%2C%5B%22createBoard%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(platform)/(dashboard)/board/[boardId]/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "4KbsM/aAFKjet9qM1Y+eagKsOg2z0zcaVqc5sUce1ow="
+  "encryptionKey": "ukUh4W6eKb5H2GIrDk83Ci+XJr1aoxcGiIXF7Wa95Q8="
 }

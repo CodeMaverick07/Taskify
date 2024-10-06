@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Trello Clone Taskify",
+  name: "Taskify",
 
   description: "A Trello clone application for task management.",
 };

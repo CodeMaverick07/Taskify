@@ -1,3 +1,4 @@
 {
+  "/(platform)/(dashboard)/board/[boardId]/page": "app/(platform)/(dashboard)/board/[boardId]/page.js",
   "/(platform)/(dashboard)/organization/[organizationId]/page": "app/(platform)/(dashboard)/organization/[organizationId]/page.js"
 }
