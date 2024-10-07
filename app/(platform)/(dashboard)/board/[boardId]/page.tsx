@@ -9,12 +9,12 @@ interface BoardIdPageProps {
   };
 }
 
-const BoardIdPage = ({ params }: BoardIdPageProps) => {
+const BoardIdPage = async ({ params }: BoardIdPageProps) => {
   const { orgId } = auth();
   if (!orgId) {
     return redirect("/select-org");
   }
-  const lists = db.list.findMany({
+  const lists = await db.list.findMany({
     where: {
       boardId: params.boardId,
       board: {
