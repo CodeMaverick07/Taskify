@@ -9,6 +9,7 @@ export default function PlatfromLayout({
   return (
     <ClerkProvider>
       <Toaster />
+
       {children}
     </ClerkProvider>
   );
