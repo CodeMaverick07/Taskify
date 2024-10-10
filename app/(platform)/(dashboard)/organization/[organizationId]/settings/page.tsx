@@ -2,22 +2,22 @@ import { OrganizationProfile } from "@clerk/nextjs";
 
 const SettingsPage = () => {
   return (
-    <div>
-      <OrganizationProfile
-        appearance={{
-          elements: {
-            rootBox: {
-              boxShadow: "none",
-              width: "100%",
-            },
-            card: {
-              border: "1px solid #E5E7EB",
-              boxShadow: "none",
-              width: "100%",
-            },
+    <div className="w-full">
+     <OrganizationProfile
+      appearance={{
+        elements: {
+          rootBox: {
+            boxShadow: "none",
+            width: "100%"
           },
-        }}
-      />
+          card: {
+            border: "1px solid #e5e5e5",
+            boxShadow: "none",
+            width: "100%"
+          }
+        }
+      }}
+     />
     </div>
   );
 };

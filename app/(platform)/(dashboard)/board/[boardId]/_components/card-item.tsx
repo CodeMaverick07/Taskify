@@ -8,9 +8,12 @@ import { useCardModal } from "@/hooks/use-card-modal";
 interface CardItemProps {
   data: Card;
   index: number;
-}
+};
 
-export const CardItem = ({ data, index }: CardItemProps) => {
+export const CardItem = ({
+  data,
+  index,
+}: CardItemProps) => {
   const cardModal = useCardModal();
 
   return (
