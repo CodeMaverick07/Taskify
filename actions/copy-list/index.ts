@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use server";
 
 import { auth } from "@clerk/nextjs/server";
@@ -56,7 +57,7 @@ const handler = async (data: InputType): Promise<ReturnType> => {
         order: newOrder,
         cards: {
           createMany: {
-            data: listToCopy.cards.map((card) => ({
+            data: listToCopy.cards.map((card: any) => ({
               title: card.title,
               description: card.description,
               order: card.order,

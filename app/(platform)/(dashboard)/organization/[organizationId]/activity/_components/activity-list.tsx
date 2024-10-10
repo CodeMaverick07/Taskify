@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { auth } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
 
@@ -26,7 +27,7 @@ export const ActivityList = async () => {
       <p className="hidden last:block text-xs text-center text-muted-foreground">
         No activity found inside this organization
       </p>
-      {auditLogs.map((log) => (
+      {auditLogs.map((log: any) => (
         <ActivityItem key={log.id} data={log} />
       ))}
     </ol>
