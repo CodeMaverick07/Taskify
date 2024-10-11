@@ -34,14 +34,14 @@
       "static/chunks/173-9efe11dd666a1205.js",
       "static/chunks/app/(marketing)/layout-4d5d11b8875eeb0d.js"
     ],
-    "/(platform)/(clerk)/select-org/[[...select-org]]/page": [
+    "/(platform)/(clerk)/sign-in/[[...sign-in]]/page": [
       "static/chunks/webpack-4daca92a7dac3050.js",
       "static/chunks/fd9d1056-104e750b0838f2e2.js",
       "static/chunks/23-b3263c720b744486.js",
       "static/chunks/main-app-fe412b73269f9ea5.js",
       "static/chunks/627-d9cce368dd5e7132.js",
       "static/chunks/449-31ebee5cc295656a.js",
-      "static/chunks/app/(platform)/(clerk)/select-org/[[...select-org]]/page-c8d4e3d187d7bf1c.js"
+      "static/chunks/app/(platform)/(clerk)/sign-in/[[...sign-in]]/page-d74538ee72414942.js"
     ],
     "/(platform)/(clerk)/layout": [
       "static/chunks/webpack-4daca92a7dac3050.js",
@@ -64,14 +64,14 @@
       "static/chunks/348-4d59e299adbb1c2f.js",
       "static/chunks/app/(platform)/layout-b31f8081e1dbac05.js"
     ],
-    "/(platform)/(clerk)/sign-in/[[...sign-in]]/page": [
+    "/(platform)/(clerk)/select-org/[[...select-org]]/page": [
       "static/chunks/webpack-4daca92a7dac3050.js",
       "static/chunks/fd9d1056-104e750b0838f2e2.js",
       "static/chunks/23-b3263c720b744486.js",
       "static/chunks/main-app-fe412b73269f9ea5.js",
       "static/chunks/627-d9cce368dd5e7132.js",
       "static/chunks/449-31ebee5cc295656a.js",
-      "static/chunks/app/(platform)/(clerk)/sign-in/[[...sign-in]]/page-d74538ee72414942.js"
+      "static/chunks/app/(platform)/(clerk)/select-org/[[...select-org]]/page-c8d4e3d187d7bf1c.js"
     ],
     "/(platform)/(clerk)/sign-up/[[...sign-up]]/page": [
       "static/chunks/webpack-4daca92a7dac3050.js",
@@ -80,7 +80,7 @@
       "static/chunks/main-app-fe412b73269f9ea5.js",
       "static/chunks/627-d9cce368dd5e7132.js",
       "static/chunks/449-31ebee5cc295656a.js",
-      "static/chunks/app/(platform)/(clerk)/sign-up/[[...sign-up]]/page-545f3be5820197ca.js"
+      "static/chunks/app/(platform)/(clerk)/sign-up/[[...sign-up]]/page-b7907c916545afb1.js"
     ],
     "/(platform)/(dashboard)/board/[boardId]/page": [
       "static/chunks/webpack-4daca92a7dac3050.js",
@@ -176,7 +176,7 @@
       "static/chunks/main-app-fe412b73269f9ea5.js",
       "static/chunks/627-d9cce368dd5e7132.js",
       "static/chunks/449-31ebee5cc295656a.js",
-      "static/chunks/app/(platform)/(dashboard)/organization/[organizationId]/settings/page-c4d859e136c9805c.js"
+      "static/chunks/app/(platform)/(dashboard)/organization/[organizationId]/settings/page-c30dc0aa9706fcf7.js"
     ]
   }
 }
